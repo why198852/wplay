@@ -11,7 +11,7 @@
 
     <groupId>com.wplay.spark.hbase</groupId>
     <artifactId>wplay-spark-hbase</artifactId>
-    <version>1.0.0</version>
+
     <dependencies>
         <dependency>
             <groupId>org.scalatest</groupId>

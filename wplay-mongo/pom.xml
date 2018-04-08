@@ -11,7 +11,7 @@
 
     <groupId>com.wplay.mongo</groupId>
     <artifactId>wplay-mongo</artifactId>
-    <version>1.0.0</version>
+
     <dependencies>
         <dependency>
             <groupId>org.mongodb</groupId>
