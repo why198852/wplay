@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="tsszytj">
+		<start>0000000000000000</start>
+		<stop>2222222222222222</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="khlbxx">
+		<start>0000000000000000</start>
+		<stop>ffffffffffffffff</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="khxx">
+		<start>0000000000000000</start>
+		<stop>ffffffffffffffff</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="khbdzs">
+		<start>0000000000000000</start>
+		<stop>ffffffffffffffff</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="khpsxx">
+		<start>0000000000000000</start>
+		<stop>ffffffffffffffff</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="khxzlb">
+		<start>0000000000000000</start>
+		<stop>ffffffffffffffff</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="xztjml">
+		<start>0000000000000000</start>
+		<stop>ffffffffffffffff</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="xzjcmb">
+		<start>0000000000000000</start>
+		<stop>ffffffffffffffff</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="khfkxx">
+		<start>0000000000000000</start>
+		<stop>ffffffffffffffff</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="khjlbs">
+		<start>0000000000000000</start>
+		<stop>ffffffffffffffff</stop>
+		<regions>40</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>false</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+	<table name="__MERGE_STATUS__">
+		<start>a</start>
+		<stop>z</stop>
+		<regions>3</regions>
+		<split>true</split>
+		<familys>
+			<family name="F">
+				<inMemory>true</inMemory>
+				<version>1</version>
+				<!--<compression>GZ</compression>-->
+				<bloomFilter>ROWCOL</bloomFilter>
+				<replication>1</replication>
+			</family>
+		</familys>
+	</table>
+</tables>

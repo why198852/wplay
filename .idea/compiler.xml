@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wplay-core" />
+        <module name="wplay-elastic" />
+        <module name="wplay-hadoop" />
+        <module name="wplay-hbase" />
+        <module name="wplay-mongo" />
+        <module name="wplay-redis" />
+        <module name="wplay-spark" />
+        <module name="wplay-spark-hbase" />
+        <module name="wplay-spark-kafka" />
+        <module name="wplay-spark-redis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wplay" target="1.7" />
+      <module name="wplay-core" target="1.7" />
+      <module name="wplay-elastic" target="1.7" />
+      <module name="wplay-hadoop" target="1.7" />
+      <module name="wplay-hbase" target="1.7" />
+      <module name="wplay-mongo" target="1.7" />
+      <module name="wplay-redis" target="1.7" />
+      <module name="wplay-spark" target="1.7" />
+      <module name="wplay-spark-hbase" target="1.7" />
+      <module name="wplay-spark-kafka" target="1.7" />
+      <module name="wplay-spark-redis" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

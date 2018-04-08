@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wplay.iml" filepath="$PROJECT_DIR$/wplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-core/wplay-core.iml" filepath="$PROJECT_DIR$/wplay-core/wplay-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-elastic/wplay-elastic.iml" filepath="$PROJECT_DIR$/wplay-elastic/wplay-elastic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-hadoop/wplay-hadoop.iml" filepath="$PROJECT_DIR$/wplay-hadoop/wplay-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-hbase/wplay-hbase.iml" filepath="$PROJECT_DIR$/wplay-hbase/wplay-hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-mongo/wplay-mongo.iml" filepath="$PROJECT_DIR$/wplay-mongo/wplay-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-redis/wplay-redis.iml" filepath="$PROJECT_DIR$/wplay-redis/wplay-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-spark/wplay-spark.iml" filepath="$PROJECT_DIR$/wplay-spark/wplay-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-spark-hbase/wplay-spark-hbase.iml" filepath="$PROJECT_DIR$/wplay-spark-hbase/wplay-spark-hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-spark-kafka/wplay-spark-kafka.iml" filepath="$PROJECT_DIR$/wplay-spark-kafka/wplay-spark-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wplay-spark-redis/wplay-spark-redis.iml" filepath="$PROJECT_DIR$/wplay-spark-redis/wplay-spark-redis.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="wplay-hbase,wplay-spark-redis,wplay-spark-kafka,wplay-spark,wplay-elastic,wplay-redis,wplay-hadoop,wplay-core,wplay,wplay-spark-hbase,wplay-mongo" />
+  </component>
+</project>

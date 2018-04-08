@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datas>
+	<data name="tsszytj" desc="tsszytj">
+	    <datasplit>\001</datasplit>
+	    <rowkey>
+	      <field>issueNo</field>
+	      <field>zcllctor</field>
+	      <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F" desc="company">company</field>
+	      <field order="1" family="F" desc="zcllctor">zcllctor</field>
+	      <field order="2" family="F" desc="zccllctorName">zccllctorName</field>
+	      <field order="3" family="F" desc="客户数量">contNum</field>
+	      <field order="4" family="F" desc="agType">agType</field>
+	      <field order="5" family="F" desc="日期">issueNo</field>
+	      <field order="6" family="F" desc="处理结果说明">process</field>
+	    </fields>
+	</data>
+	<data name="khlbxx" desc="khlbxx">
+	    <datasplit>\001</datasplit>
+	    <rowkey>
+	      <field>zcllctor</field>
+	      <field>issueNo</field>
+	      <field>cont_id</field>
+	      <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F"  desc="zcllctor">zcllctor</field>
+	      <field order="1" family="F"  desc="cont_id">cont_id</field>
+	      <field order="2" family="F"  desc="contact_name">contact_name</field>
+	      <field order="3" family="F"  desc="totFee">totFee</field>
+	      <field order="4" family="F"  desc="流失率">churnRate</field>
+	      <field order="5" family="F"  desc="issueNo">issueNo</field>
+	    </fields>
+	</data>
+	<data name="khxx" desc="khxx">
+	    <datasplit>\001</datasplit>
+	     <rowkey>
+	      <field>zcllctor</field>
+	      <field>cont_id</field>
+	      <field>issueNo</field>
+	      <field>company</field>
+	      <field>policyNo</field>
+	      <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F" desc="cont_id">zcllctor</field>
+	      <field order="1" family="F" desc="cont_id">cont_id</field>
+	      <field order="2" family="F" desc="policyNo">policyNo</field>
+	      <field order="3" family="F" desc="company">company</field>
+	      <field order="4" family="F" desc="riskName">riskName</field>
+	      <field order="5" family="F" desc="occDate">occDate</field>
+	      <field order="6" family="F" desc="ptDate">ptDate</field>
+	      <field order="7" family="F" desc="sumStamt06">sumStamt06</field>
+	      <field order="8" family="F" desc="issueNo">issueNo</field>
+	    </fields>
+	</data>
+	<data name="khbdzs" desc="khbdzs">
+	    <datasplit>\001</datasplit>
+	     <rowkey>
+	      <field>cont_id</field>
+	       <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F" desc="cont_id">cont_id</field>
+	      <field order="1" family="F" desc="contact_name">contact_name</field>
+	      <field order="2" family="F" desc="gender_tp_code">gender_tp_code</field>
+	      <field order="3" family="F" desc="age">age</field>
+	      <field order="4" family="F" desc="policyTol">policyTol</field>
+	      <field order="5" family="F" desc="occDateMin">occDateMin</field>
+	      <field order="6" family="F" desc="occDateMax">occDateMax</field>
+	      <field order="7" family="F" desc="jkxPayFee">jkxPayFee</field>
+	      <field order="8" family="F" desc="ywxPayFee">ywxPayFee</field>
+	      <field order="9" family="F" desc="fhxPayFee">fhxPayFee</field>
+	      <field order="10" family="F" desc="ptsxPayFee">ptsxPayFee</field>
+	      <field order="11" family="F" desc="tlxPayFee">tlxPayFee</field>
+	      <field order="12" family="F" desc="wnxPayFee">wnxPayFee</field>
+	    </fields>
+	</data>
+	<data name="khpsxx" desc="khpsxx">
+	    <datasplit>\001</datasplit>
+	     <rowkey>
+	       <field>cont_id</field>
+	       <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F" desc="cont_id">cont_id</field>
+	      <field order="1" family="F" desc="contact_name">contact_name</field>
+	      <field order="2" family="F" desc="gender_tp_code">gender_tp_code</field>
+	      <field order="3" family="F" desc="age">age</field>
+	    </fields>
+	</data>
+	<data name="khxzlb" desc="khxzlb">
+	    <datasplit>\001</datasplit>
+	     <rowkey>
+	       <field>cont_id</field>
+	       <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F" desc="cont_id">cont_id</field>
+	      <field order="1" family="F" desc="riskCode">riskCode</field>
+	    </fields>
+	</data>
+	<data name="xztjml" desc="xztjml">
+	    <datasplit>\001</datasplit>
+	     <rowkey>
+	       <field>xzhzuh</field>
+	       <field>tjxizh</field>
+	       <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F" desc="xzhzuh">xzhzuh</field>
+	      <field order="1" family="F" desc="tjxizh">tjxizh</field>
+	      <field order="2" family="F" desc="supp">supp</field>
+	      <field order="3" family="F" desc="conf">conf</field>
+	      <field order="4" family="F" desc="lift">lift</field>
+	      <field order="5" family="F" desc="conviction">conviction</field>
+	    </fields>
+	</data>
+	<data name="xzjcmb" desc="xzjcmb">
+	    <datasplit>\001</datasplit>
+	     <rowkey>
+	       <field>riskCode</field>
+	       <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F" desc="riskCode">riskCode</field>
+	      <field order="1" family="F" desc="riskName">riskName</field>
+	    </fields>
+	</data>
+	<data name="khfkxx" desc="khfkxx">
+	    <datasplit>\001</datasplit>
+	    <rowkey>
+	       <field>issueNo</field>
+	       <field>zcllctor</field>
+	       <field>cont_id</field>
+	       <field>startDate</field>
+	       <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F" desc="zcllctor">zcllctor</field>
+	      <field order="1" family="F" desc="zccllctorName">zccllctorName</field>
+	      <field order="2" family="F" desc="cont_id">cont_id</field>
+	      <field order="3" family="F" desc="startDate">startDate</field>
+	      <field order="4" family="F" desc="address">address</field>
+	      <field order="5" family="F" desc="intention">intention</field>
+	      <field order="6" family="F" desc="isHelp">isHelp</field>
+	      <field order="7" family="F" desc="demand">demand</field>
+	      <field order="8" family="F" desc="issueNo">issueNo</field>
+	    </fields>
+	</data>
+	<data name="khjlbs" desc="khjlbs">
+	    <datasplit>\001</datasplit>
+	     <rowkey>
+	       <field>cont_id</field>
+	       <rowsplit>|</rowsplit>
+	    </rowkey>
+	    <fields>
+	      <field order="0" family="F" desc="cont_id">cont_id</field>
+	      <field order="1" family="F" desc="clus">clus</field>
+	    </fields>
+	</data>
+</datas>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+	<type name="bas" desc="">
+		<data name="stg_bas_rta1"/>
+	</type>
+	<type name="csc" desc="">
+		<data name="stg_csc_agntpf" desc=""/>
+		<data name="stg_csc_chdrpf" desc=""/>
+		<data name="stg_csc_lifepf" desc=""/>
+	</type>
+	<type name="mdm" desc="">
+		<data name="stg_mdm_contact" desc=""/>
+		<data name="stg_mdm_contequiv" desc=""/>
+		<data name="stg_mdm_identifier" desc=""/>
+		<data name="stg_mdm_interaction" desc=""/>
+		<data name="stg_mdm_person" desc=""/>
+	</type>
+	<type name="bi" desc="">
+		<data name="claim" desc=""/>
+		<data name="ipe_chdrinfo" merge="false" desc=""/>
+		<data name="plcy_evt" desc=""/>
+		<data name="stg_standard_premium" desc=""/>
+		<data name="t_insurelist" desc=""/>
+		<data name="cvr" desc="" />
+		<data name="prod" desc="" />
+	</type>
+</types>
